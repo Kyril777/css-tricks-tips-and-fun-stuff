@@ -1,13 +1,11 @@
-Center a Div!
+/* Center a Div! */
 
-CSS Stylesheet
-<!-- Using CSS Grid. -->
-HTML
+/* Using CSS Grid. 
 <div class="wrapper">
   <span class="grid">Center Div Using CSS Grid!</span>
 </div>  
+*/
 
-CSS
 body{
   background-color: #EDE4E3;
   color: #FFFFF0;
@@ -31,13 +29,12 @@ body{
 }
 
 
-<!-- Using Flexbox. -->
-HTML
+/* Using Flexbox. 
 <div class="wrapper">
   <span class="flexbox">Center Div Using Flexbox!</span>
 </div>  
+*/
 
-CSS
 body{
   background-color: #EDE4E3;
   font-size: 35px;
@@ -62,14 +59,12 @@ body{
 }
 
 
-<!-- Using vh-unit. -->
-HTML
+/* Using vh-unit.
 <div class="wrapper">
   <p class="vh-unit">Center Div Using Vh-Unit.</p
 </div>  
+*/
 
-CSS
-// Place item centers the item.
 body{
   background-color: #EDE4E3;
   color: #FFFFF0;
@@ -88,14 +83,12 @@ body{
 }
 
 
-
-<!-- Use translate -->
-HTML
+/* Using translate.
 <div class="wrapper">
   <p class="translate">Center Div Using Translate!</p
 </div>  
+*/
 
-CSS
 body{
   background-color: #EDE4E3;
   color: #FFFFF0;
