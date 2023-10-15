@@ -1,0 +1,119 @@
+Center a Div!
+
+CSS Stylesheet
+<!-- Using CSS Grid. -->
+HTML
+<div class="wrapper">
+  <span class="grid">Center Div Using CSS Grid!</span>
+</div>  
+
+CSS
+body{
+  background-color: #EDE4E3;
+  color: #FFFFF0;
+  font-size: 35px;  
+}
+
+.wrapper{
+  background-color: #5F6E05;
+  width: 300px;
+  min-height: 300px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Set Div to Center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+<!-- Using Flexbox. -->
+HTML
+<div class="wrapper">
+  <span class="flexbox">Center Div Using Flexbox!</span>
+</div>  
+
+CSS
+body{
+  background-color: #EDE4E3;
+  font-size: 35px;
+  color: #FFFFF0;
+  
+  /* Set wrapper to the center. */
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Use margin: auto in child. */
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 300px;
+  min-height: 300px; 
+  padding: 5px;
+  background-color: #5F6E05;
+}
+
+
+<!-- Using vh-unit. -->
+HTML
+<div class="wrapper">
+  <p class="vh-unit">Center Div Using Vh-Unit.</p
+</div>  
+
+CSS
+// Place item centers the item.
+body{
+  background-color: #EDE4E3;
+  color: #FFFFF0;
+  font-size: 35px;  
+}
+
+.wrapper{
+  background-color: #5F6E05;
+  width: 300px;
+  text-align: center;
+  padding: 70px;
+  
+  /* Position div using vh-init */
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+}
+
+
+
+<!-- Use translate -->
+HTML
+<div class="wrapper">
+  <p class="translate">Center Div Using Translate!</p
+</div>  
+
+CSS
+body{
+  background-color: #EDE4E3;
+  color: #FFFFF0;
+  font-size: 35px;  
+}
+
+.wrapper{
+  background-color: #5F6E05;
+  width: 300px;
+  min-height: 300px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Use translate to center the div. */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
