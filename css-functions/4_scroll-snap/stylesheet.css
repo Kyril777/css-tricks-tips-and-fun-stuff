@@ -1,0 +1,46 @@
+/*
+The CSS box-sizing property accounts for the padding and border in an element's total width and height.
+Scroll-snap-type specifies how the elements will snap into focus when you stop scrolling, and in what direction. 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(37, 36, 36);
+}
+.container {
+    width: 360px;
+    height: 240px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory; /* Specify scroll snap as mandatory in the x-axis. */
+}
+
+.container .card {
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center; /* Align scroll=snap to the center. */
+}
+
+.container .card:nth-child(1) {
+    background-color: #e20f0b;
+}
+
+.container .card:nth-child(2) {
+    background-color: lightgreen;
+}
+
+.container .card:nth-child(3) {
+    background-color: lightblue;
+}
+
+.container .card:nth-child(4) {
+    background-color: yellow;
+}
+
+.container .card:nth-child(5) {
+    background-color: lightpink;
+}

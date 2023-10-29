@@ -1,0 +1,44 @@
+/* Change the order of the child classes using the order propert. */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #36454F;
+}
+
+.container {
+    display: flex; /* Order is a property of the flex display: */
+    flex-direction: column; /* The items will display below to each other. */
+}
+
+.container .area {
+    width: 100px;
+    height: 75px;
+    background-color: #FF80FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area {
+    border-style: solid;
+    border-color: #DEDEDE;
+    border-radius: 5px;
+}
+
+.container .area:nth-child(1) {
+    order: 2;
+}
+
+.container .area:nth-child(2) {
+    order: 2;
+}
+
+.container .area:nth-child(3) {
+    order: 1;
+}
+
+.container .area:nth-child(4) {
+    order: 3
+}

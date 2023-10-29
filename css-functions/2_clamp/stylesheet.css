@@ -1,0 +1,16 @@
+/*
+The CSS box-sizing property accounts for the padding and border in an element's total width and height.
+The clamp() function contains a middle value between defined minimum and maximum bounds.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: magenta;
+    width: clamp(200px, 50%, 250px); /* The clamp function takes a min width, a preferred width and a max width. */
+    height: 200px;
+
+}

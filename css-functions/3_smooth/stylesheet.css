@@ -1,0 +1,18 @@
+/*
+The CSS box-sizing property accounts for the padding and border in an element's total width and height.
+The smooth scroll behavior  allows for smooth scrolling from a top section to the lower section.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.high, 
+.low {
+    height: 125vh;
+}

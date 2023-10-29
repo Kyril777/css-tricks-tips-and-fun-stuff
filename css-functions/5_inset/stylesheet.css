@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    background-color: lightslategray;
+    width: 250px;
+    height: 250px;
+}
+
+.container .area {
+    position: absolute;
+    background-color: lightskyblue;
+    inset: 25px; /* Inset specifies the spacing within an element. */
+}

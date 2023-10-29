@@ -1,0 +1,16 @@
+/*
+The CSS box-sizing property accounts for the padding and border in an element's total width and height.
+The max() function will opt for the bigger value. If the percentage is bigger than the pixel value, it will select the percent. 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: max(75%, 100px); /* The maximum of the box will be no less than 100px. */
+    /*width: min(75%, 100px); The min of the box will not exceed 100px. */
+    height: 100px;
+    background-color: navy;
+}
