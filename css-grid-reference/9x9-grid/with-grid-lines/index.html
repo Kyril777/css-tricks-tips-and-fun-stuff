@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #301934;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-container > div:not(.item2) {
+  height: 2.5em;
+}
+
+.item1 {
+  background-image: url(cartoon-1.jpg);
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item2 {
+  background-image: url(cartoon-2.jpg);
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.item3 {
+  background-image: url(cartoon-3.jpg);
+}
+
+.item4 {
+  background-image: url(cartoon-4.jpg);
+}
+
+.item4 {
+  background-image: url(cartoon-4.jpg);
+}
+
+.item5 {
+  background-image: url(cartoon-5.jpg);
+}
+
+.item6 {
+  background-image: url(cartoon-6.jpg);
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Grid Lines</h1>
+
+<div class="grid-container">
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>
+  <div class="item4"></div>
+  <div class="item5"></div>
+  <div class="item6"></div>  
+</div>
+
+</body>
+</html>
