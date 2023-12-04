@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Use the counter() function to install Roman numerals to <h2> tags and an empty bullet on <h3> tags. */
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Chapter " counter(section, upper-roman) ": ";
+}
+
+h3::before {
+  counter-increment: section;
+  content: "○ ";
+}
+</style>
+</head>
+<body>
+
+<h1>Introductory Chemistry</h1>
+
+<h2>Introduction</h2>
+<h3>Chapter Introduction</h3>
+<h3>Some Basic Definitions</h3>
+<h3>Chemistry as a Science</h3>
+
+<h2>Measurements</h2>
+<h3>Chapter Introduction</h3>
+<h3>Expressing Numbers</h3>
+<h3>Expressing Units</h3>
+<h3>Significant Figures</h3>
+<h3>Converting Units</h3>
+<h3>Other Units: Temperature and Density</h3>
+<h3>End-of-Chapter Material</h3>
+
+<h2>Atoms, Molecules, Ions</h2>
+<h3>Chapter Introduction</h3>
+<h3>Atomic Theory</h3>
+<h3>Molecules and Chemical Nomenclature</h3>
+<h3>Masses of Atoms and Molecules</h3>
+<h3>Ions and Ionic Compounds</h3>
+<h3>Acids</h3>
+<h3>End-of-Chapter Material</h3>
+
+</body>
+</html>
