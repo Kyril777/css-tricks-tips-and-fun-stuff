@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p {
+          color: #F1F1F1;
+        }
+
+        .stacked {
+            display: grid;
+            place-items: center;
+            isolation: isolate; 
+        }
+
+        .stacked > * {
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+        }
+        
+        .stacked > .media {
+          z-index: -1;
+        }
+    </style>
+  </head>
+  <body>
+	<script src="index.js"></script>
+    <div class="stacked">
+        <p>“In the midst of darkness, light persists.”</p>
+        <img class="media" src="foggy-park.jpg">        
+    </div>
+  </body>
+</html>
