@@ -11,65 +11,47 @@
 }
 
 .grid-container > div {
-  background-color: #808080;
+  background-color: #F1F1F1;
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
 .item1 {
-  grid-column: 1 / 5;
+  grid-row: 1 / span 2;
 }
 
-.item4 {
-  grid-column: 1 / 5;
+.item6 {
+  grid-row: span 2;
 }
 
-.item7 {
+.item12 {
+  grid-row: 4 / span 1;
   grid-column: 1/7;
-}
-
-.item8 {
-  grid-column: 1/2;
-}
-
-.item9 {
-  grid-column: 2/5;
-}
-
-.item14 {
-  grid-column: 3/5;
-}
-
-.item15 {
-  grid-column: 5/7;
 }
 
 </style>
 </head>
 <body>
 
-<h1>The grid-column Property</h1>
-
+<h1>The grid-row Property</h1>
 
 
 <div class="grid-container">
-  <div class="item1">1</div>
-  <div class="item2">2</div>
-  <div class="item3">3</div>  
-  <div class="item4">4</div>
-  <div class="item5">5</div>
-  <div class="item6">6</div>
-  <div class="item7">7</div>
-  <div class="item8">8</div>  
-  <div class="item9">9</div>
-  <div class="item10">10</div>
-  <div class="item11">11</div>
-  <div class="item12">12</div>
-  <div class="item13">13</div>
-  <div class="item14">14</div>
-  <div class="item15">15</div>
+  <div class="item1">Menu</div>
+  <div class="item2">Card 1</div>
+  <div class="item3">Card 2</div>  
+  <div class="item4">Card 3</div>
+  <div class="item5">Card 4</div>
+  <div class="item6">White Space</div>
+  <div class="item7">Pic # 1</div>
+  <div class="item8">Caption</div>  
+  <div class="item9">Pic # 2</div>
+  <div class="item10">Caption</div>
+  <div class="item12">Footer</div>
 </div>
 
 </body>
 </html>
+
+
