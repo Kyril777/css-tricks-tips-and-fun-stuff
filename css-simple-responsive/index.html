@@ -7,7 +7,17 @@
         <style>
             body {background-color: powderblue;}    
             h1   {color: blue;}
-            p    {color: red;}
+            p    {color: red;{
+
+            .container {
+                display: grid;
+            }
+
+            @media (max-width: 768px) {
+                .container {
+                    grid-template-columns: 1f;
+                }
+            }
         </style>
         <title>CSS Simple Responsive</title>
       </head>
