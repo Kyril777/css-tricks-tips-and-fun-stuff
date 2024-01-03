@@ -1,0 +1,18 @@
+/* Margins. */
+/* Longhand. */
+.margin {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+/* Shorthand. */
+.margin {
+    margin: 5px 10px 5px 10px; /* top right bottom left */
+}
+
+/* Further shorthand. */
+.margin {
+    margin: 5px 10px; /* top-bottom left-right */
+}
