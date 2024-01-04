@@ -16,3 +16,18 @@
 .margin {
     margin: 5px 10px; /* top-bottom left-right */
 }
+
+
+/* Background. */
+/* Longhand. */
+.header {
+    background-color: #fff;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/* Shorthand. */
+.header {
+    background: #fff url(background.png) no-repeat top left; /* Color, image, repeat, position. */
+}
