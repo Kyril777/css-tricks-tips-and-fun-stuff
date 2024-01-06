@@ -31,3 +31,19 @@
 .header {
     background: #fff url(background.png) no-repeat top left; /* Color, image, repeat, position. */
 }
+
+
+/* Fonts. */
+/* Longhand. */
+.font-style {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.8em;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+}
+
+/* Shorthand. */
+.font-style {
+    font: italic bold 0.8em/1.2 Arial, sans-serif;
+}
