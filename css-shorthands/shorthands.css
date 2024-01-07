@@ -47,3 +47,18 @@
 .font-style {
     font: italic bold 0.8em/1.2 Arial, sans-serif;
 }
+
+
+/* Padding. */
+/* Longhand. */
+.padding-longhand {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+/* Shorthand. */
+.padding-shorthand {
+    padding: 10px 20px 40px; /* top right bottom left; */
+}
