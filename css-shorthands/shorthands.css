@@ -60,5 +60,20 @@
 
 /* Shorthand. */
 .padding-shorthand {
-    padding: 10px 20px 40px; /* top right bottom left; */
+    padding: 10px 20px 40px; /* top right bottom left. */
+}
+
+
+/* Margin. */
+/* Longhand. */
+.margin-longhand {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    margin-right: 8px;
+}
+
+/* Shorthand/ */
+.margin-shorthand {
+    margin: 2px 8px 4px 3px; /* top right bottom left. */
 }
