@@ -103,3 +103,22 @@
 .lists-shorthand {
     list-style: disc inside url(disc.png);
 }
+
+
+/* Animation. */
+/* Longhand. */
+.animation-longhand {
+    animation-duration: 5s;
+    animation-name: running-man;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-fill-mode: normal;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+}
+
+/* Shorthand. */
+.animation-shorthand {
+    animation: 5s running-man 2s alternate infinite ease-out;
+}
