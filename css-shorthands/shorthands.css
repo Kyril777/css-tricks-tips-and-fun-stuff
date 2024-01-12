@@ -122,3 +122,29 @@
 .animation-shorthand {
     animation: 5s running-man 2s alternate infinite ease-out;
 }
+
+/* Border radius. */
+/* 1-value syntax. All corners. */
+.red-square {
+    background: red;
+    border-radius: 1em;
+}
+
+/* 2-value syntax. Top-left, bottom right; top-right, bottom-left. */
+.green-square {
+    background: green;
+    border-radius: 1em 2em;
+}
+
+
+/* 3-value syntax. Top-left; top-right, bottom-left; bottom-right. */
+.blue-square {
+    background: blue;
+    border-radius: 1em 2em 3em;
+}
+
+/* 4-value syntax. Top-left; top-right; bottom-right; and bottom-left. */
+.yellow-square {
+    background: yellow;
+    border-radius: 1em 2em 3em 4em;
+}
