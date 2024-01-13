@@ -1,6 +1,6 @@
 /* Margins. */
 /* Longhand. */
-.margin {
+.margin-longhand {
     margin-top: 5px;
     margin-right: 10px;
     margin-bottom: 5px;
@@ -8,19 +8,19 @@
 }
 
 /* Shorthand. */
-.margin {
+.margin-shorthand {
     margin: 5px 10px 5px 10px; /* top right bottom left */
 }
 
 /* Further shorthand. */
-.margin {
+.margin-shorthand {
     margin: 5px 10px; /* top-bottom left-right */
 }
 
 
 /* Background. */
 /* Longhand. */
-.header {
+.header-longhand {
     background-color: #fff;
     background-image: url(background.png);
     background-repeat: no-repeat;
@@ -28,14 +28,14 @@
 }
 
 /* Shorthand. */
-.header {
+.header-shorthand {
     background: #fff url(background.png) no-repeat top left; /* Color, image, repeat, position. */
 }
 
 
 /* Fonts. */
 /* Longhand. */
-.font-style {
+.font-longhand {
     font-style: italic;
     font-weight: bold;
     font-size: 0.8em;
@@ -44,7 +44,7 @@
 }
 
 /* Shorthand. */
-.font-style {
+.font-longhand {
     font: italic bold 0.8em/1.2 Arial, sans-serif;
 }
 
