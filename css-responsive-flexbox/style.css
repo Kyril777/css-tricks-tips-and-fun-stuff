@@ -10,3 +10,46 @@
     flex: 1 100%;
     border-radius: 10px;
 }
+
+.header {
+    background: #FF6347;
+    height: 80px;
+}
+
+.footer {
+    background: #87CEEB;
+    height: 80px;    
+}
+
+.main {
+    background: #ADFF2F;
+    height: 300px;
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.aside1 {
+    background: #FFFF00;    
+}
+
+@media all and (min-width: 800px) {
+    .main {
+        flex: 2;
+    }
+    .aside1 {
+        order: 2;
+    }
+    .main {
+        order: 1;
+    }
+    .footer {
+        order: 4;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 1;
+    }
+}
